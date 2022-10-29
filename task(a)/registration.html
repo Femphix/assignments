@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h3>Welcome to Zuri Registration Page</h3>
+    <nav>
+      <ul>
+        <li name=nav-link id="login"> <a href="login.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="">
+      <div>
+        <input name="firstName" required placeholder="First Name" type="text" />
+        <input name="lastName" required placeholder="Last Name" type="text" />
+        <input number="phoneNumber" placeholder="type your phone numer" type="number" />
+        <input name="email" required placeholder="email" type="email" />
+      </div>
+      <div>
+        <option value="gender" selected>Gender</option>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </div>
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+      </div>
+      <div>
+        <option value="color" selected>Select your favorite color</option>
+        <input name="color" type="color">
+      </div>
+      <div id="submit">
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </main>
+
+  <footer>
+
+    Copyright femphix-media 2022
+  </footer>
+</body>
+
+</html>

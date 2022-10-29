@@ -1,0 +1,50 @@
+*{
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  header{
+    background: #ededed;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    color: black;
+    
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  nav li{
+    list-style:none;
+    padding-inline: 15px;}
+  
+    li a{
+      text-decoration:none;
+    }
+  input{
+    padding:10px 12px;
+  }
+  input:active,
+  input focus{
+    color:black;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: center;
+     text-align: center;
+    padding: 3px;
+    background-color: #ededed;
+    color: #000000;
+  }
