@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(0, 0%, 95%);
+  }
+  main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container{
+    color:white;
+  }
+  
+  .flex-container{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  @font-face{
+    font-family: BigShouldersDisplay;
+    src: url(Fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+    font-weight:700;
+  }
+  @font-face{
+    font-family: LexendDeca;
+    src: url(Fonts/LexendDeca-VariableFont_wght.ttf);
+    font-weight: 400;
+  }
+  p{
+    font-family: LexendDeca;
+    font-size: 10px;
+  }
+  h1{
+    font-family: BigShouldersDisplay; 
+    font-size: 32px;
+  }
+  .item-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+  }
+  .item-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+  }
+  .item-3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+  }
+  .button-1{
+    color: hsl(31, 77%, 52%);
+    background-color:hsl(0, 0%, 95%);
+    border-color: transparent;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-family: LexendDeca;
+    cursor: pointer;
+              margin: 15px 0;
+  }
+  .button-2{
+    color: hsl(184, 100%, 22%);
+    background-color:hsl(0, 0%, 95%);
+    border-color: transparent;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-family: LexendDeca;
+    cursor: pointer;
+              margin: 15px 0;
+  }
+  .button-3{
+    color: hsl(179, 100%, 13%);
+    background-color:hsl(0, 0%, 95%);
+    border-color: transparent;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-family: LexendDeca;
+    cursor: pointer;
+              margin: 15px 0;
+  }
