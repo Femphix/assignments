@@ -1,9 +1,9 @@
 
-# Week 3 tasks
+# Week 4 tasks
 
 These tasks are carried out by me with the help of the resouces proived
-by Zuri Team and the office hours.The Portifolio speaks so well about me
-Do use the contact page to reach out to me. Thanks
+by Zuri Team and the office hours.This particular task allows me to well grounded
+with flexbox.
 
 
 ## Authors
